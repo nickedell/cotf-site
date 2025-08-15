@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header grid-container">
+	<nav class="site-nav grid-main-content">
+		<ul>
+			<li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+			<li><a href="/pov/" {% if page.url == "/pov/" %}class="active"{% endif %}>POV</a></li>
+			<li><a href="/evidence/" {% if page.url == "/evidence/" %}class="active"{% endif %}>Evidence</a></li>
+			<li><a href="/capabilities/" {% if page.url == "/capabilities/" %}class="active"{% endif %}>Capabilities</a></li>
+			<li><a href="/roles/" {% if page.url == "/roles/" %}class="active"{% endif %}>Roles</a></li>
+			<li><a href="#" class="disabled">Client Kit</a></li>
+			<li><a href="#" class="disabled">Workshop</a></li>
+		</ul>
+	</nav>
+</header>
+
+	<main class="grid-container">
+		{{ content | safe }}
+	</main>
+
+	<footer class="site-footer">
+		<p>&copy; 2025 Infosys Consulting. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+/* Universal Box Sizing & Font Smoothing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 1. Global Styles & Dark Mode
+-------------------------------------- */
+:root {
+	--background-color: #121212;
+	--text-color: #e0e0e0;
+	--primary-accent-color: #007bff; /* Example accent */
+	--disabled-color: #555;
+	--feature-box-bg: #1e1e1e;
+	--orange-hover-color: #FFA500; /* <-- Add this line */
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: var(--background-color);
+	color: var(--text-color);
+	margin: 0;
+}
+
+/* 2. Grid System
+-------------------------------------- */
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 20px;
+	max-width: 1140px; /* <-- This is the updated value */
+	margin: 4rem auto; /* Vertical spacing and centering */
+	padding: 0 20px;
+}
+
+/* Helper classes for spanning columns */
+.grid-full-width {
+	grid-column: 1 / -1; /* Spans all 12 columns */
+}
+
+.grid-main-content {
+	grid-column: 2 / 12; /* Spans 10 columns with margins */
+}
+
+/* 3. Typography & Spacing
+-------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 4rem;
+	margin: 0 0 2rem 0;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin: 0 0 1rem 0;
+}
+
+p {
+	line-height: 1.6;
+	margin: 0 0 1.5rem 0;
+}
+
+a {
+	color: var(--primary-accent-color);
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+	color: var(--text-color);
+}
+
+
+/* 4. Header & Footer
+-------------------------------------- */
+.site-header {
+	padding: 1.5rem 20px;
+	border-bottom: 1px solid var(--disabled-color);
+}
+
+.site-nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.site-nav a {
+	color: var(--text-color);
+	text-transform: uppercase;
+	font-size: 0.9rem;
+}
+
+.site-nav a:hover {
+	color: var(--orange-hover-color);
+}
+
+.site-nav a.active {
+	font-weight: bold;
+}
+
+.site-nav a.disabled {
+	color: var(--disabled-color);
+	pointer-events: none; /* Disables clicking */
+}
+
+.site-footer {
+	text-align: center;
+	padding: 2rem 20px;
+	margin-top: 4rem;
+	border-top: 1px solid var(--disabled-color);
+	font-size: 0.9rem;
+	color: var(--disabled-color);
+}
+
+/* 5. Homepage Specifics
+-------------------------------------- */
+.video-placeholder {
+	grid-column: 1 / -1; /* Span all 12 columns */
+	background-color: var(--feature-box-bg);
+	border: 1px dashed var(--disabled-color);
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2rem;
+	color: var(--disabled-color);
+}
+
+.feature-boxes {
+	grid-column: 1 / -1; /* Container spans all 12 */
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Nested 3-col grid */
+	gap: 20px;
+}
+
+.feature-box {
+	background-color: var(--feature-box-bg);
+	padding: 2rem;
+}
