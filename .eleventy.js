@@ -1,6 +1,7 @@
 module.exports = function(eleventyConfig) {
   // Tell Eleventy to copy the "css" folder to the output folder
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("js"); 
 
   return {
 	// Define the input and output directories

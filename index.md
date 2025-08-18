@@ -4,8 +4,13 @@ layout: layouts/base.njk
 ---
 
 <h1 class="grid-main-content">Lead the change. Deliver the future.</h1>
-<div class="video-placeholder grid-main-content">
-	<h2>VIDEO AREA</h2>
+<div class="carousel grid-main-content">
+	<div class="carousel-track">
+		<div class="carousel-slide"><h2>Market Disruption</h2></div>
+		<div class="carousel-slide"><h2>Compression of Time</h2></div>
+		<div class="carousel-slide"><h2>Evolving Client Expectations</h2></div>
+		<div class="carousel-slide"><h2>New Talent Expectations</h2></div>
+	</div>
 </div>
 
 <div class="feature-boxes grid-main-content">
