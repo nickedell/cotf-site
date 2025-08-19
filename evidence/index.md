@@ -1,6 +1,12 @@
 ---
 title: Evidence
 layout: layouts/base.njk
+audienceIntro: |
+  Bold claims demand evidence. Leaders inside and outside the firm want to know: is AI really delivering results today, or is this still hype? The answer is clear — the numbers are in.
+
+  Independent research from the Infosys Knowledge Institute, McKinsey, BCG, and MIT shows productivity gains of 30–70% in knowledge work when AI is applied. Smaller consultancies are already proving the model in market, completing in weeks what used to take months.
+
+  Internally, our own pilots show reductions of 70% in research cycles, 80% in proposal creation, and 60% in analysis-to-decision time. Client engagements are seeing measurable lifts in win rates and satisfaction. Add to this our unique telemetry — live data from the systems we deliver globally — and it becomes clear: we are positioned not just to keep pace, but to lead.
 ---
 
 <div class="grid-main-content">

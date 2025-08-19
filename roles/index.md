@@ -1,36 +1,92 @@
 ---
 title: Roles
 layout: layouts/base.njk
+audienceIntro: |
+  Every consultant wants to know: what does this mean for my role? Will jobs disappear, or will they evolve?
+
+  Our view is clear: roles will remain, but responsibilities will shift. Partners will orchestrate markets and model strategic futures. Principals will design and govern complex engagements with AI at their side. Senior Consultants and Consultants will move from manual execution to solution curation, delivery orchestration, and innovation. Analysts will graduate from data gathering to information strategy and verification.
+
+  AI doesn’t eliminate the consulting hierarchy — it re-focuses it. Human value comes from curation, validation, and orchestration. This is the future of consulting careers: less about grinding through execution, more about elevating judgement, empathy, and foresight.
 ---
 
-<div class="grid-main-content">
-	<h1>Future-Ready Consulting Roles</h1>
-</div>
+<h1 class="grid-main-content">Capabilities, Roadmap & Impact.</h1>
 
 <div class="grid-main-content">
-	<p>While our roles remain recognisable to clients and internal teams, their focus, tools, and value creation are shifting dramatically. This enables faster, higher-quality outcomes without dismantling the familiar consulting grade structure.</p>
-	<h2>Evolving Focus by Grade</h2>
+	<p>This page outlines our core capabilities, a phased roadmap for development, our AI-enabled decision-making process, and the resulting impact on leadership.</p>
+	<h2>Capabilities Roadmap (Near-Term)</h2>
 </div>
 
 <div class="grid-main-content horizontal-group cols-3">
 	<div class="group-item">
-		<h3>Partner</h3>
-		<p><strong>Focus:</strong> Market/Client Orchestration. <strong>AI-Enabled Capabilities:</strong> AI-assisted market scanning, opportunity qualification, and client relationship management dashboards.</p>
+		<h3>Research & Analysis</h3>
+		<p>Automated synthesis of data, reports, and insights. <strong>Impact:</strong> Reduce research cycles by 70%.</p>
 	</div>
 	<div class="group-item">
-		<h3>Principal</h3>
-		<p><strong>Focus:</strong> Complex Engagement Design & Governance. <strong>AI-Enabled Capabilities:</strong> AI-supported programme modelling, risk prediction, and governance automation.</p>
+		<h3>Proposal Development</h3>
+		<p>AI-assisted drafting and tailoring of proposals. <strong>Impact:</strong> 80% faster proposal creation.</p>
 	</div>
 	<div class="group-item">
-		<h3>Senior Consultant</h3>
-		<p><strong>Focus:</strong> Solution & Delivery Curation. <strong>AI-Enabled Capabilities:</strong> AI-accelerated solution design and delivery tracking with predictive alerts.</p>
+		<h3>Delivery Feasibility</h3>
+		<p>Predictive modelling before pitching. <strong>Impact:</strong> Improved bid selectivity and higher win rate.</p>
 	</div>
 </div>
 
-<div class="grid-main-content horizontal-group cols-2">
+<div class="grid-main-content">
+	<h2>Capabilities Roadmap (Mid-Term)</h2>
+</div>
+
+<div class="grid-main-content horizontal-group cols-3">
 	<div class="group-item">
-		<h3>Consultant</h3>
-		<p><strong>Focus:</strong> Execution & Value Realisation. <strong>AI-Enabled Capabilities:</strong> AI-driven workflow orchestration, knowledge synthesis, and real-time client reporting.</p>
+		<h3>Dynamic Team Assembly</h3>
+		<p>AI matches consultants to projects via capability graphs. <strong>Impact:</strong> Faster, more precise staffing.</p>
 	</div>
 	<div class="group-item">
-		<h3>Analyst</h3>
+		<h3>Real-Time Project Monitoring</h3>
+		<p>Predictive dashboards with alerts. <strong>Impact:</strong> 30% fewer delivery delays.</p>
+	</div>
+	<div class="group-item">
+		<h3>Knowledge Management</h3>
+		<p>AI-enriched reusable assets for faster onboarding. <strong>Impact:</strong> 50% faster reuse and delivery.</p>
+	</div>
+</div>
+
+<div class="grid-main-content">
+	<h2>Capabilities Roadmap (Long-Term)</h2>
+</div>
+
+<div class="grid-main-content horizontal-group cols-3">
+	<div class="group-item">
+		<h3>Autonomous Solution Prototyping</h3>
+		<p>AI agents design, simulate, and test concepts. <strong>Impact:</strong> Compress innovation cycles from months to days.</p>
+	</div>
+	<div class="group-item">
+		<h3>Continuous Client Co-Creation</h3>
+		<p>Persistent AI-enabled collaboration spaces. <strong>Impact:</strong> Higher retention and deeper relationships.</p>
+	</div>
+	<div class="group-item">
+		<h3>AI-Driven Strategic Advisory</h3>
+		<p>Predictive and prescriptive scenario modelling. <strong>Impact:</strong> Future-focused, high-value engagements.</p>
+	</div>
+</div>
+
+<div class="grid-main-content">
+	<h2>The AI-Enabled Decision Chain</h2>
+	<p>Our model replaces linear workflows with AI-embedded cycles, allowing humans to focus on oversight, trust, and context.</p>
+</div>
+
+<div class="grid-main-content horizontal-group cols-3">
+	<div class="group-item">
+		<h3>1. Signal Capture</h3>
+		<p>AI scans markets, clients, and internal delivery data for early signals and opportunities.</p>
+	</div>
+	<div class="group-item">
+		<h3>2. Opportunity Framing</h3>
+		<p>AI and human consultants collaborate to frame business cases and shape compelling bids.</p>
+	</div>
+	<div class="group-item">
+		<h3>3. Solution Design</h3>
+		<p>AI generates potential design options; consultants validate, contextualise, and refine.</p>
+	</div>
+	<div class="group-item">
+		<h3>4. Feasibility Prediction</h3>
+		<p>AI models risk, adoption scenarios

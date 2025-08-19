@@ -1,6 +1,12 @@
 ---
 title: Point of View
 layout: layouts/base.njk
+audienceIntro: |
+  Consulting is being re-architected in months, not years. The pace of change in artificial intelligence means the foundations of our profession — research, solutioning, delivery — are being compressed and redefined. What once took weeks is now measured in hours.
+
+  This is not a thought experiment. Smaller, AI-enabled firms are already competing head-to-head with global players, offering engagements at a fraction of the time and cost. Clients expect faster answers, adaptive delivery, and consultants who bring AI to the table by default. Our own people expect the same: work that is higher-value, less repetitive, and more strategic.
+
+  The shift is inevitable. Our point of view is that consultants of the future will orchestrate, validate, and curate AI outputs — not be displaced by them. Infosys Consulting has the advantage: deep domain knowledge, horizontal expertise, enterprise-scale delivery credibility, and proprietary AI platforms. These strengths make our AI strategies more defensible, actionable, and lower-risk than those of advisory-only firms.
 ---
 
 <div class="grid-main-content">

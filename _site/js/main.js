@@ -25,3 +25,33 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 	}, 3000); // Change slide every 3 seconds
 });
+
+// --- Audience Mode Toggle Logic ---
+const body = document.body;
+const toggle = document.getElementById('audience-toggle');
+
+// Function to set mode
+function setAudienceMode(isAudience) {
+	if (isAudience) {
+		body.classList.add('audience-mode-active');
+		toggle.checked = true;
+		localStorage.setItem('audienceMode', 'true');
+	} else {
+		body.classList.remove('audience-mode-active');
+		toggle.checked = false;
+		localStorage.setItem('audienceMode', 'false');
+	}
+}
+
+// Event listener for the toggle switch
+toggle.addEventListener('change', () => {
+	setAudienceMode(toggle.checked);
+});
+
+// Check localStorage on page load to set initial state
+const savedMode = localStorage.getItem('audienceMode');
+if (savedMode === 'true') {
+	setAudienceMode(true);
+} else {
+	setAudienceMode(false);
+}
