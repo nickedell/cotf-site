@@ -1,0 +1,115 @@
+**layout guide for each page**
+---
+
+## **1. Home (Hook)**
+
+🎯 *Job*: Hit the audience with urgency and contrast.
+
+* **Hero Split Screen**: Left = “Today” (consultant at desk, traditional workflows), Right = “Tomorrow” (AI-enabled consultant, streamlined dashboards).
+* **Headline**: “Same consultant. Same day. Entirely different reality.”
+* **Subline**: “Consulting is being re-architected in months, not years.”
+* **Play Button**: launches the 2–3 min video.
+
+---
+
+## **2. Point of View (Why)**
+
+🎯 *Job*: Set thesis, make it simple + bold.
+
+* **Big Title + Short Thesis Para** at top.
+* **4 Market Shifts**: visualised as **icons + short statements** in a horizontal row (time compression, disruption, client expectations, talent expectations).
+* **Our Advantage**: grid of 4 cards (Domain, Horizontals, Enterprise AI, Delivery IP).
+* **Audience Mode**: 2 paras of long-form context down the right-hand side.
+
+---
+
+## **3. Evidence (Proof)**
+
+🎯 *Job*: Show credibility and momentum.
+
+* **Section Title with “Proven, Scalable, Differentiated” tagline**.
+* **Two-column layout**:
+
+  * Left: *Market validation* (logos, stats from McKinsey/IKI/BCG/MIT).
+  * Right: *Infosys proof points* (70% faster research, 80% faster proposals, etc.).
+* **Carousel or ticker**: Analyst recognition quotes/logos (Gartner, Forrester).
+* **Audience Mode**: narrative para: “Bold claims demand evidence. The numbers are in.”
+
+---
+
+## **4. Capabilities (What Changes)**
+
+🎯 *Job*: Show transformation over time.
+
+* **Interactive Timeline**: Near-Term → Mid-Term → Long-Term phases.
+* Each node opens a **card** with capability name, description, impact metric.
+* **Infographic (d3.js style)**: “Dynamic Capability Systems” network visual.
+* **Audience Mode**: para at top: “Capabilities define what consultants can actually do. But the shape is changing rapidly.”
+
+---
+
+## **5. Roles (Who We Become)**
+
+🎯 *Job*: Translate change into career terms.
+
+* **Role Evolution Map**: Table or flowchart (Partner → Analyst across 3 horizons).
+* Each role cell can expand to show: “Today → Tomorrow → Future responsibilities.”
+* **Signals of Change cards**: quick wins in 90 days (research cycles, proposal creation, win rates).
+* **Audience Mode**: para at top: “Every consultant wants to know: what does this mean for my role?”
+
+---
+
+## **6. Decision Chain (How We Work)**
+
+🎯 *Job*: Replace “workflow” with “AI-embedded cycle.”
+
+* **Circular Flow Diagram**: 6 stages (Signal Capture → Value Realisation).
+* **Each node**: click/hover = explanation of AI + human role.
+* **Contrast Panel**: Old linear workflow vs. New decision chain.
+* **Audience Mode**: para: “Consulting has always been defined by workflows. With AI, those workflows no longer run linearly.”
+
+---
+
+## **7. Leadership Impact (So What?)**
+
+🎯 *Job*: Translate big picture into leadership priorities.
+
+* **Grid of 6 Icons**: Tools, Hiring, Skills, Offers, Client Relationships, Culture.
+* **Tooling Sub-Section**: spotlight box: “The AI Workbench of the Future.”
+* **Audience Mode**: para at top: “For senior leaders, the real question is not if AI changes consulting, but what it demands of us.”
+
+---
+
+## **8. Client Kit (Assets)**
+
+🎯 *Job*: Show we have usable IP.
+
+* **Visual Grid of Assets**: Capability maps, AI playbooks, accelerators, templates.
+* Each card = download link or case study preview.
+* **Carousel**: quick case wins (pilot stats).
+* **Audience Mode**: para: “This is how clients touch the strategy — not just theory, but assets they can use today.”
+
+---
+
+## **9. Workshop (Call to Action)**
+
+🎯 *Job*: End with energy + invitation.
+
+* **Hero Banner**: “Lead. Don’t follow.”
+* **Three Blocks**:
+
+  * Pilot AI in 90 days.
+  * Every consultant experiments.
+  * Measure & share impact.
+* **Call-to-Action Button**: “Book your Future of Consulting Workshop.”
+* **Audience Mode**: para: “We end not with theory, but with an invitation. Let’s co-design your firm’s journey.”
+
+---
+
+✨ **Overall design language**:
+
+* Minimal, Swiss-modern grid layouts.
+* Icons + data overlays.
+* Animated infographics (d3.js).
+* Split-screen contrasts (Today vs Tomorrow).
+* **Toggle at top-right**: Presentation vs Audience mode.

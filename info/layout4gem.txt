@@ -1,0 +1,128 @@
+A **UI/UX design & dev brief** - **page-by-page implementation instructions**, including the **Audience Mode headings** (but not full content)
+
+---
+
+# 🖥️ Consultant of the Future Microsite — UI/UX Brief for Gemini
+
+## Global Elements
+
+* **Nav order (narrative arc):** Home → POV → Evidence → Capabilities → Roles → Decision Chain → Leadership Impact → Client Kit → Workshop.
+* **Toggle at top-right:** Switch between **Presentation Mode** (short bullets, visuals, data) and **Audience Mode** (adds 1–3 paras of explanatory text with heading).
+* **Style:** Swiss-modern grid, clean typography, responsive, minimal colour palette. Avoid “sci-fi” clichés.
+
+---
+
+## Page-by-Page Layout
+
+### **1. Home (Hook)**
+
+* **Hero split screen:** Left = “Today” (consultant in traditional workflow), Right = “Tomorrow” (AI-augmented workflow).
+* **Headline:** “Same consultant. Same day. Entirely different reality.”
+* **Subline:** “Consulting is being re-architected in months, not years.”
+* **Primary CTA:** Play 2–3 min hero video.
+
+Audience Mode Heading: **“Why This Site Exists”**
+Long-form para explaining urgency and purpose of the microsite.
+
+---
+
+### **2. Point of View (Why)**
+
+* **Big title + thesis para** at top.
+* **Four Market Shifts:** Icons + short text (Time Compression, Market Disruption, Client Expectations, Talent Expectations).
+* **Our Advantage:** 4 card grid (Domain Expertise, Horizontals, Enterprise AI, Delivery IP).
+
+Audience Mode Heading: **“The Case for Change”**
+Long-form paras explaining our core POV and why it matters.
+
+---
+
+### **3. Evidence (Proof)**
+
+* **Tagline at top:** “Proven, Scalable, Differentiated.”
+* **Two-column layout:**
+
+  * Left = *Market Validation* (stats, logos: IKI, McKinsey, BCG, MIT).
+  * Right = *Infosys Proof Points* (internal pilots, client data).
+* **Carousel or ticker:** Analyst recognition (Gartner, Forrester).
+
+Audience Mode Heading: **“Bold Claims Demand Evidence”**
+Narrative paras giving context to proof points.
+
+---
+
+### **4. Capabilities (What Changes)**
+
+* **Interactive Timeline:** Near-Term (0–6m), Mid-Term (6–18m), Long-Term (18m+).
+* **Infographic:** d3.js-style network visual (“Dynamic Capability Systems”).
+* **Impact metric overlays** per capability.
+
+Audience Mode Heading: **“The Capabilities Roadmap”**
+Intro paras explaining how capabilities evolve and why.
+
+---
+
+### **5. Roles (Who We Become)**
+
+* **Role Evolution Map:** Table or visual mapping Partner → Analyst across Near/Mid/Long.
+* **Signals of Change cards:** Near-term quick wins (e.g. 70% faster research, 80% faster proposals).
+
+Audience Mode Heading: **“From Jobs to Capabilities”**
+Intro paras: explain roles won’t vanish but will evolve, human value = orchestration, validation, curation.
+
+---
+
+### **6. Decision Chain (How We Work)**
+
+* **Circular Flow Diagram:** 6 stages (Signal Capture → Value Realisation).
+* **Each node interactive:** AI role + human role.
+* **Contrast panel:** Old linear workflow vs New AI-enabled chain.
+
+Audience Mode Heading: **“From Workflows to Decision Chains”**
+Intro paras explaining shift from task execution → AI-embedded decision orchestration.
+
+---
+
+### **7. Leadership Impact (So What?)**
+
+* **Grid of 6 icons:** Tools, Hiring, Skills, Offers, Client Relationships, Culture.
+* **Tooling Sub-Section:** Spotlight box, “The AI Workbench of the Future.”
+* Clear tie-in: what leaders must *do*.
+
+Audience Mode Heading: **“What This Demands of Leaders”**
+Paras explaining leadership imperatives: model AI use, sponsor tools, reshape offers, retrain people.
+
+---
+
+### **8. Client Kit (Assets)**
+
+* **Visual Grid of Assets:** Capability maps, accelerators, playbooks.
+* **Carousel of Case Wins.**
+* Focus: tangible takeaways, IP we can show/share.
+
+Audience Mode Heading: **“Turning Vision Into Assets”**
+Paras: explain these are real, usable resources not just theory.
+
+---
+
+### **9. Workshop (Call to Action)**
+
+* **Hero Banner:** “Lead. Don’t follow.”
+* **Three Callout Blocks:** Pilot AI in 90 days, Every consultant experiments, Measure & share.
+* **CTA Button:** “Book your Future of Consulting Workshop.”
+
+Audience Mode Heading: **“From Insight to Action”**
+Paras: make the ask explicit — this ends with an invitation, not just a presentation.
+
+---
+
+## Implementation Notes for Gemini
+
+* Audience Mode content already exists in text; simply surface under new **headings** listed above.
+* Each section should render clean in Presentation Mode without the Audience panel.
+* Timeline, circular flows, role maps → ideally interactive (d3.js / chart lib).
+* Grid and card components → reusable React/Tailwind UI blocks.
+
+---
+
+Would you like me to also **prepare a dev-ready JSON or YAML config** for Gemini so the page structure + headings are machine-readable (not just prose)? That would let Gemini scaffold pages directly from the brief.
