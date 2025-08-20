@@ -51,6 +51,10 @@ main.grid-container {
 	grid-column: 2 / 12;
 }
 
+.grid-narrow-content {
+	grid-column: 2 / 9; /* Starts at column 2 and spans 8 columns */
+}
+
 /* 3. Typography & Spacing
 -------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
@@ -61,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 4rem;
-	margin: 0 0 2rem 0;
+	margin: 0 0 0.5rem 0;
 }
 
 h3 {
@@ -158,7 +162,7 @@ a:hover {
 
 .feature-boxes {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr); /* Changed from 3 to 4 */
 	gap: 20px;
 }
 
@@ -172,7 +176,7 @@ a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
-	margin-bottom: 2rem;
+	margin-bottom: 0rem;
 }
 
 .group-item {
@@ -309,4 +313,79 @@ input:checked + .slider:before {
 
 body.audience-mode-active .audience-content {
 	display: block;
+}
+
+/* 8. Homepage Hero
+-------------------------------------- */
+.hero-container {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 3rem;
+}
+
+.hero-panel {
+	flex: 1;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start; /* <-- Changed to top-align content */
+	position: relative;
+}
+
+.hero-split-screen {
+	flex: 1 1 50%; /* Set width to 50% */
+	display: flex;
+	min-height: 50vh;
+}
+
+.hero-headline {
+	flex: 1 1 50%; /* Set width to 50% */
+	padding-top: 0;
+	border-top: none;
+}
+
+.hero-left {
+	background-color: #333; /* Placeholder background */
+}
+
+.hero-right {
+	background-color: var(--feature-box-bg); /* Placeholder background */
+}
+
+.hero-label {
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: bold;
+	color: var(--disabled-color);
+}
+
+.hero-content h2 {
+	font-size: 1.5rem;
+	text-transform: none;
+	max-width: 90%;
+}
+
+.hero-subline {
+	font-size: 1.25rem;
+	color: var(--disabled-color);
+}
+
+/* 9. Section Intro Text
+-------------------------------------- */
+.section-intro {
+	text-align: left;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;*
+}
+
+.section-intro h2 {
+	font-size: 1.5rem;
+	text-transform: none;
+	margin: 0;
+	max-width: 900px;
+}
+
+.section-intro p {
+	margin-bottom: 0.1rem; /* Sets a new, smaller margin */
 }
